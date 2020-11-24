@@ -25,3 +25,8 @@ let goodMultilineExample = `This
  example`;
 console.log(goodMultilineExample);
 console.log(`\nlength ${firstText.length} and ${goodMultilineExample.length}`);
+
+let a = 3;
+let b = 4;
+let messageAdd = `a + b = ${a + b}`;
+console.log(messageAdd);
