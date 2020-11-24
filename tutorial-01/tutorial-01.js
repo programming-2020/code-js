@@ -1,5 +1,8 @@
-// const v05_string = require('./v05-string');
-// v05_string;
+// const v05 = require('./v05-string');
+// v05;
 
-const v06_template_literal = require('./v06-template-literals');
-v06_template_literal;
+// const v06 = require('./v06-template-literals');
+// v06;
+
+const v09 = require('./v09-let-const-scope');
+v09;
