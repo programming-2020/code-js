@@ -1,5 +1,5 @@
 /**
- * let and const in block level scope
+ * let and const in a block level scope
  * Why not to use var.
  * Use let / const.
  * const declaration prevents reference changing, not the value itself.
