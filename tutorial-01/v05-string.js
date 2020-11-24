@@ -5,6 +5,12 @@
 // ES5 got a trim method
 // ES6 includes includes(), startsWith(), endswith() -> case sensitive
 
+/**
+ * Template literals - introduced in ES6
+ * A string is inside if a `` (backtick) pair
+ * let mytext = `some example text ${variableValue}`;
+ */
+
 let message = "Nice and sunny day."
 
 console.log(`1 - ${message.startsWith("Nice")}`); // if so returns true
