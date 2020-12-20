@@ -1,3 +1,4 @@
+
 /**
  * Rest parameters
  */
@@ -34,3 +35,4 @@ function sortRestArg(...theArgs) {
 }
 
 console.log(sortRestArg(2, 4, 5, 1, 4, 8, 3));
+
