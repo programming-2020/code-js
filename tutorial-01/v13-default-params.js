@@ -36,6 +36,7 @@ function notStrict(first, second) {
 
 notStrict("a", "b");
 
+// TODO: test with default second parameter
 function useStrict(first, second) {
     'use strict'
     console.log(arguments.length);
