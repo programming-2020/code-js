@@ -1,4 +1,4 @@
 
-const app = require('./v17-name-property');
+const app = require('./v18-metaproperty');
 app;
 
