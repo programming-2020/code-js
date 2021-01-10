@@ -19,7 +19,7 @@ let person = new Person('Anna');
 // let someObject =  Person('Anna');
 // let second = Person.call(person, 'John')
 
-console.log(person, " ", someObject );
+console.log(person, " ", someObject);
 
 
 

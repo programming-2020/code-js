@@ -1,4 +1,4 @@
 
-const app = require('./v18-metaproperty');
+const app = require('./v19-arrow-02');
 app;
 
