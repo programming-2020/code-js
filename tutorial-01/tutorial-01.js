@@ -1,4 +1,4 @@
 
-const app = require('./v19-arrow-02');
+const app = require('./v20-iife-and-this');
 app;
 
