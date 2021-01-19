@@ -28,3 +28,6 @@ const Person = (name, email) => ({
 const p = Person("Adam", "asmith@mail.com");
 console.log(`${p.name} ${p.email}`);
 
+
+
+

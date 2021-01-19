@@ -22,3 +22,6 @@ const someOther = () => { };
 
 console.log(typeof someOther);
 console.log(someOther instanceof Function);
+
+
+
