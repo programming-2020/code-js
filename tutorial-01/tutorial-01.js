@@ -1,4 +1,4 @@
 
-const app = require('./v23-object-literal');
+const app = require('./v24-object-methods');
 app;
 
