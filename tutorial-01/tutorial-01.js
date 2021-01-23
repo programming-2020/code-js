@@ -1,4 +1,4 @@
 
-const app = require('./v22-iife-and-this');
+const app = require('./v23-object-literal');
 app;
 
