@@ -1,4 +1,4 @@
 
-const app = require('./v18-metaproperty');
+const app = require('./v24-object-methods');
 app;
 
