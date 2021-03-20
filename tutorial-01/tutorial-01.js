@@ -1,4 +1,6 @@
 
-const app = require('./v24-object-methods');
-app;
+require('./v25-prototype-es6');
+
+
+
 

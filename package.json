@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/programming-2020/js-2020#readme",
   "dependencies": {
+    "eslint": "^7.22.0",
     "nodemon": "^2.0.6"
   }
 }
