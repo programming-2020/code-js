@@ -26,6 +26,7 @@ console.log(Object.getPrototypeOf(myLetter));
 Object.setPrototypeOf(myLetter, Number);
 console.log(`my letter -> ${myLetter.getValue()}`);
 
+//TODO
 
 
 
