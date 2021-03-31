@@ -56,3 +56,9 @@ let newLetterES6 = {
 
 Object.setPrototypeOf(newLetterES6, myLetterES6);
 console.log(newLetterES6.getValue());
+
+
+
+
+
+
