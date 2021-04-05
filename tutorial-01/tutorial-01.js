@@ -1,5 +1,5 @@
 
-require('./v25-prototype-es6');
+require('./v26-destructuring-objects');
 
 
 
