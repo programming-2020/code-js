@@ -1,5 +1,5 @@
 
-require('./v26-destructuring-objects');
+require('./v27-destructuring-arrays');
 
 
 
