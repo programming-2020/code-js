@@ -18,6 +18,8 @@ let a_node = {
 };
 
 // Destructuring a_node
+
+// eslint-disable-next-line no-unused-vars
 let { type, name, location: {end}, range: [startIndex] } = a_node;
 
 console.log(end.line);
