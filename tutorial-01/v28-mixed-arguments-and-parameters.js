@@ -1,5 +1,5 @@
 
-console.log('TODO mixed arguments and parameters');
+console.log('mixed arguments and parameters');
 
 let a_node = {
     type: 'Identifier',
