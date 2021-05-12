@@ -1,4 +1,4 @@
 
-require('./v29-sets-and-maps');
+require('./v30-sets-es6');
 
 
