@@ -1,4 +1,4 @@
 
-require('./v30-sets-es6');
+require('./v32-weak-sets');
 
 
