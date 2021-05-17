@@ -1,4 +1,4 @@
 
-require('./v32-weak-sets');
+require('./v34-foreach-maps');
 
 
