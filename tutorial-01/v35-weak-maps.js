@@ -1,7 +1,13 @@
 console.log('ES6 weak maps');
 
-// Every key has to non-object
-// 
+// WeakMap is a small subset of map.
+// Keys are weakly referenced, 
+// so it can be non-primitive only. 
+// If there are no reference to the object keys, 
+// it will be subject to garbage collection.
+//  not iterable
+//  every key is object type
+// The WeakMap will allow garbage collection if the key has no reference. 
 
 let mapA = new  WeakMap();
 let keyA = {};
@@ -18,6 +24,5 @@ console.log(mapB.get(key1));
 console.log(mapB.has(key2));
 console.log(mapB.get(key2));
 
-mapB.delete(key1);
 console.log(mapB.has(key1));
 
