@@ -1,4 +1,4 @@
-console.log(`foreach in Maps`);
+console.log(`ES6 - foreach in Maps`);
 
 let mapA = new Map([['name', 'Adam'], ['year', 2017], ['age', '25']]);
 
