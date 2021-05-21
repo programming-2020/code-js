@@ -1,4 +1,2 @@
 
-require('./v34-foreach-maps');
-
-
+require('./v36-iterators-generators');
