@@ -1,5 +1,5 @@
 
-console.log('Clases in detail');
+console.log('Classes in detail');
 
 
 
