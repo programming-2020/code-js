@@ -1,3 +1,3 @@
 
-require('./v40-classes-introduction');
+require('./v41-classes-detailed');
 
