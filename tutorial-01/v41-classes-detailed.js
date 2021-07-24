@@ -73,3 +73,90 @@ evar.printValue();
 
 
 
+
+console.log('Class in detail');
+
+
+
+
+
+/* pass class as an argument */
+
+
+function createObject(classDefinition) {
+  return new classDefinition();
+}
+
+let objectC = createObject(class {
+  getName(name) {
+    return name;
+  }
+});
+
+console.log(`\n${objectC.getName("Adam Smith")}`);
+
+
+
+/* creating singletons when invoking class onstructor  */
+
+
+let objectD = new class {
+  constructor(name) {
+    this.name = name;
+  }
+  printName() {
+    return this.name;
+  }
+}("John");
+
+console.log(`\n${objectD.printName()}`);
+
+
+/* getter and setter  */
+
+class SomeValue { 
+  
+  constructor(value) {
+    this.element = value;
+  }
+
+  get element() { return this.element; }
+  set element(value) { this.element = value; }
+}
+
+let descriptor = Object.getOwnPropertyDescriptor(SomeValue.prototype, "element");
+
+console.log(`descriptor -> ${descriptor.get}`);
+console.log('get' in descriptor); // true
+console.log('set' in descriptor); // true
+console.log(descriptor.enumerable); // false
+
+
+/* computed names - expression that resolves into name  */
+
+let methodName = "personalMethod";
+let propertyName = "name"; 
+
+class PersonClassX {
+  constructor(name) {
+    this.name = name;
+  }
+
+  [methodName]() {
+    return this.name;
+  }
+  
+  get [propertyName]() {
+    console.log("Getter function");
+  }
+
+  set [propertyName](value) {
+    console.log(`${value}`);
+  }
+
+}
+
+let me = new PersonClassX("Daniel");
+console.log(`\n${me.personalMethod()}`);
+
+
