@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "nodemon": "npx nodemon app.js",
-    "nodemon-eslint": "npx nodemon app.js",
+    "nodemon-eslint": "npx nodemon app.js && npx eslint **/*.js",
     "start": "node app.js",
     "lint": "npx eslint **/*.js"
   },
@@ -24,10 +24,10 @@
     "url": "https://github.com/programming-2020/js-2020/issues"
   },
   "homepage": "https://github.com/programming-2020/js-2020#readme",
-  "dependencies": {
-    "nodemon": "^2.0.6"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "eslint": "^7.27.0"
+    "eslint": "^7.27.0",
+    "nodemon": "^2.0.12",
+    "npx": "^10.2.2"
   }
 }
